@@ -643,10 +643,6 @@ img {
   margin-bottom: 8px;
 }
 
-.modal-textarea-field {
-  margin-bottom: 16px;
-}
-
 .modal-row {
   position: relative;
 }
@@ -709,7 +705,6 @@ img {
   align-items: center;
   display: flex;
   margin-bottom: 24px;
-  position: relative;
 }
 
 .policy-input {
@@ -727,7 +722,7 @@ img {
   font-size: 12px;
   letter-spacing: 0.04em;
   line-height: 1.17;
-  margin-left: 24px;
+  position: relative;
 }
 
 .policy-span {
