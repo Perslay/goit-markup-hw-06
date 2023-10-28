@@ -382,6 +382,10 @@ img {
   max-width: 264px;
 }
 
+.footer-social-div {
+  margin-right: 80px;
+}
+
 .footer-social-paragraph,
 .footer-subscribe-paragraph {
   color: var(--white);
@@ -683,13 +687,16 @@ img {
   fill: var(--iris);
 }
 
+.modal-textarea-field {
+  margin-bottom: 16px;
+}
+
 .textarea {
   color: var(--navy-blue-modal);
   font-size: 12px;
   height: 120px;
   letter-spacing: 0.04em;
   line-height: 1.17;
-  margin-bottom: 16px;
   padding: 8px 16px;
   resize: none;
 }
@@ -722,7 +729,6 @@ img {
   font-size: 12px;
   letter-spacing: 0.04em;
   line-height: 1.17;
-  position: relative;
 }
 
 .policy-span {
@@ -734,14 +740,14 @@ img {
   fill: transparent;
   height: 16px;
   justify-content: center;
-  position: absolute;
+  margin-right: 8px;
   width: 16px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.policy-input:checked + .policy-span {
+.policy-input:checked + .policy-label .policy-span {
   background-color: var(--ocean);
   border: none;
   fill: var(--cloud);
